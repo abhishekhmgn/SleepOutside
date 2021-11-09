@@ -19,4 +19,4 @@ function convertToJson(res) {
       const products = await this.getData()
       return products.find((item) => item.Id === id);
     }
-}
+  }
